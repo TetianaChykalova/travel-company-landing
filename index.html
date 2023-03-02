@@ -2,170 +2,627 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap"
+          rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style/nullstyle.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Travel</title>
 </head>
 <body>
 
-<header>
+<div class="wrapper">
 
-    <header>
-<!--        logo-->
-        <div></div>
+    <header class="header">
 
-<!--        links-->
-        <div>
-<!--            collection-->
-<!--            user-->
-        </div>
+        <header class="header-header">
+            <!--        logo-->
+            <div class="header-name">
+                trppd _
+            </div>
+
+            <!--        links-->
+            <div class="header-user">
+                <ul>
+                    <li>
+                        <a href="#">My Collection</a>
+                    </li>
+                    <li>
+                        <a href="#">Galih Pambudi</a>
+                        <span class="header-user-img"></span>
+                    </li>
+                </ul>
+            </div>
+
+        </header>
+
+        <nav class="header-nav">
+            <ul>
+                <li class="active">Home</li>
+                <li>Recommendation</li>
+                <li>Explore</li>
+                <li>Help</li>
+                <li>About us</li>
+            </ul>
+        </nav>
+
     </header>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>Recommendation</li>
-            <li>Explore</li>
-            <li>Help</li>
-            <li>About us</li>
-        </ul>
-    </nav>
 
-</header>
+    <main class="main">
 
-<main>
+        <!--    top main part-->
+        <section class="top-part">
+            <!--        items-->
+            <div class="swiper-container swiper-container-top">
+                <div class="swiper-wrapper swiper-wrapper-top">
+                    <!--            item-->
+                    <div class="swiper-slide swiper-slide-top">
+                        <img src="img/top-section/001.jpg" alt="main" class="top-img">
+                        <div class="top-text">
+                            <h2>
+                                Mountains
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, sed.
+                            </p>
+                            <button class="button">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
 
-<!--    main bg-->
-    <section>
-<!--        items-->
-        <div>
+                    <div class="swiper-slide swiper-slide-top">
+                        <img src="img/top-section/002.jpg" alt="main" class="top-img">
+                        <div class="top-text">
+                            <h2>
+                                Landscape
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam esse est facere ipsam
+                                rerum? Doloribus!
+                            </p>
+                            <button class="button">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
 
-<!--            item-->
-            <div>
-                <img src="" alt="">
-                <div>
-                    <h2>
-                        Name
-                    </h2>
-                    <p>
-                        description
-                    </p>
-                    <button>
-                        read more
-                    </button>
+                    <div class="swiper-slide swiper-slide-top">
+                        <img src="img/top-section/003.jpg" alt="main" class="top-img">
+                        <div class="top-text">
+                            <h2>
+                                Sea...
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque dolorum eaque eveniet
+                                exercitationem expedita, iste iusto natus nulla pariatur.
+                            </p>
+                            <button class="button">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide swiper-slide-top">
+                        <img src="img/top-section/004.jpg" alt="main" class="top-img">
+                        <div class="top-text">
+                            <h2>
+                                Outdoors
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, repellendus?
+                            </p>
+                            <button class="button">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
-        </div>
-    </section>
+            <footer class="top-part-footer section-footer">
+                <button class="footer-arr footer-arr-prev-top"><</button>
+                <button class="footer-arr footer-arr-next-top">></button>
+                <p class="section-footer-text">Outdoors Editions</p>
+                <span class="swiper-pagination-fraction swiper-pagination-footer swiper-pagination-footer-top"></span>
+            </footer>
+            <div class="gradient gradient-top"></div>
+        </section>
 
-<!--    featured spots-->
-    <section>
-        <div>
-            <h3>FS</h3>
-            <p>description</p>
-            <button><span></span> View all</button>
-        </div>
-
-<!--        carousel-->
-        <div>
-
-<!--            items-->
-            <div>
-
-<!--                item-->
-                <div>
-                    <h4>Name</h4>
-                    <p>country</p>
-                    <img src="" alt="place">
-                    <p>description</p>
-                    <button>read more</button>
-                </div>
-
+        <!--    featured spots-->
+        <section class="featured">
+            <div class="head">
+                <h3>Featured Spots</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <!--                    <button><span></span> View all</button>-->
             </div>
-        </div>
-    </section>
 
-<!--    above the sea-->
-    <section>
-        <div>
-            <img src="" alt="sea">
-        </div>
-        <div>
-            <h3>Above</h3>
-            <p>"quote"</p>
-            <p>description</p>
-            <button>read more</button>
-        </div>
-    </section>
+            <!--        carousel-->
+            <div class="details">
+                <div class="swiper-container swiper-container-featured">
+                    <div class="swiper-wrapper swiper-wrapper-featured">
 
-<!--    editors pick-->
-    <section>
-        <div>
-            <h3>
-                ER
-            </h3>
-            <p>description</p>
-        </div>
+                        <div class="swiper-slide swiper-slide-featured">
+                            <div class="slide-featured-img">
+                                <img src="img/featured/001.jpg" alt="place">
+                            </div>
+                            <h4>Cappadocia</h4>
+                            <h5>Turkey</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti neque,
+                                porro quia reprehenderit ullam?
+                            </p>
+                            <button>read more</button>
+                        </div>
 
-        <div>
+                        <div class="swiper-slide swiper-slide-featured">
+                            <div class="slide-featured-img">
+                                <img src="img/featured/002.jpg" alt="place">
+                            </div>
+                            <h4>Cappadocia</h4>
+                            <h5>Turkey</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti neque,
+                                porro quia reprehenderit ullam?
+                            </p>
+                            <button>read more</button>
+                        </div>
 
-            <div>
+                        <div class="swiper-slide swiper-slide-featured">
+                            <div class="slide-featured-img">
+                                <img src="img/featured/003.jpg" alt="place">
+                            </div>
+                            <h4>Cappadocia</h4>
+                            <h5>Turkey</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti neque,
+                                porro quia reprehenderit ullam?
+                            </p>
+                            <button>read more</button>
+                        </div>
 
-                <div>
-                    <div>
-                        <img src="" alt="">
-                        <h4>name</h4>
-                        <p>country</p>
-                        <p>description</p>
+                        <div class="swiper-slide swiper-slide-featured">
+                            <div class="slide-featured-img">
+                                <img src="img/featured/004.jpg" alt="place">
+                            </div>
+                            <h4>Cappadocia</h4>
+                            <h5>Turkey</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti neque,
+                                porro quia reprehenderit ullam?
+                            </p>
+                            <button>read more</button>
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-featured">
+                            <div class="slide-featured-img">
+                                <img src="img/featured/005.jpg" alt="place">
+                            </div>
+                            <h4>Cappadocia</h4>
+                            <h5>Turkey</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti neque,
+                                porro quia reprehenderit ullam?
+                            </p>
+                            <button>read more</button>
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-featured">
+                            <div class="slide-featured-img">
+                                <img src="img/featured/005.jpg" alt="place">
+                            </div>
+                            <h4>Cappadocia</h4>
+                            <h5>Turkey</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti neque,
+                                porro quia reprehenderit ullam?
+                            </p>
+                            <button>read more</button>
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-featured">
+                            <div class="slide-featured-img">
+                                <img src="img/featured/005.jpg" alt="place">
+                            </div>
+                            <h4>Cappadocia</h4>
+                            <h5>Turkey</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti neque,
+                                porro quia reprehenderit ullam?
+                            </p>
+                            <button>read more</button>
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-featured">
+                            <div class="slide-featured-img">
+                                <img src="img/featured/005.jpg" alt="place">
+                            </div>
+                            <h4>Cappadocia</h4>
+                            <h5>Turkey</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti neque,
+                                porro quia reprehenderit ullam?
+                            </p>
+                            <button>read more</button>
+                        </div>
+
                     </div>
                 </div>
 
+                <footer class="featured-part-footer section-footer">
+                    <button class="footer-arr footer-arr-prev-featured"><</button>
+                    <button class="footer-arr footer-arr-next-featured">></button>
+                    <p class="section-footer-text">Outdoors Editions</p>
+                    <span class="swiper-pagination-fraction swiper-pagination-footer swiper-pagination-footer-featured"></span>
+                </footer>
+            </div>
+        </section>
+
+        <!--    above the sea-->
+        <section class="sea">
+            <div class="sea-img">
+                <img src="img/sea/001.jpg" alt="sea">
+            </div>
+            <div class="sea-description">
+                <h3>Above The Sea</h3>
+                <span>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur blanditiis exercitationem harum iure maiores nam quasi reprehenderit? Asperiores, voluptatum?"</span>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, dicta nulla! Alias asperiores
+                    autem distinctio, maxime non quibusdam soluta ut vel voluptatibus. Accusamus accusantium at atque
+                    aut consequatur deserunt, dolor doloremque dolorum esse, facilis fuga fugiat in incidunt iusto
+                    minima modi neque nisi obcaecati quam quas quisquam quo reiciendis repellat sit temporibus tenetur,
+                    vel voluptatum! Dolore earum harum inventore ipsam neque possimus quis. Consequuntur, deserunt
+                    excepturi ipsum iure molestias mollitia neque non odio provident quis quo, ullam voluptatibus. Dolor
+                    exercitationem fuga fugit labore soluta? Amet aperiam, eos facilis in iste iusto maxime, nesciunt
+                    obcaecati quibusdam quis reprehenderit velit voluptate, voluptates.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet architecto aspernatur dignissimos
+                    enim eos eum fuga fugit illo, maxime molestiae non, officiis optio quibusdam quis recusandae, velit
+                    voluptatem! A accusantium adipisci asperiores beatae dicta esse eveniet explicabo ipsam non
+                    praesentium, provident quaerat quibusdam, quos, repellendus velit. Ad animi cumque deleniti,
+                    doloribus eius excepturi expedita ipsa iure laboriosam neque nihil nisi non odit optio, perspiciatis
+                    placeat provident repellendus, tempora totam?
+                </p>
+                <button class="button">Read More</button>
+            </div>
+        </section>
+
+        <!--    editors pick-->
+        <section class="editor">
+
+            <div class="head">
+                <h3>
+                    Editor's pick
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, cupiditate.
+                </p>
             </div>
 
-        </div>
-    </section>
+            <div class="details">
 
-<!--    mountain collection-->
-    <section>
-        <h3>MC</h3>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <div>
-
-<!--            mountain item-->
-            <div>
-                <div>
-                    <h4>Name</h4>
-                    <p>country</p>
-                    <p>description</p>
-                    <button>read more</button>
+                <!--                pagination-->
+                <div class="editor-part-footer section-footer">
+                    <button class="footer-arr footer-arr-prev-editor"><</button>
+                    <button class="footer-arr footer-arr-next-editor">></button>
+                    <p class="section-footer-text">Outdoors Editions</p>
+                    <span class="swiper-pagination-fraction swiper-pagination-footer swiper-pagination-footer-editor"></span>
                 </div>
-                <div>
-                    <img src="" alt="mountain">
+
+                <!--                swiper-->
+                <div class="swiper-container swiper-container-editor">
+
+                    <div class="swiper-wrapper swiper-wrapper-editor">
+
+                        <div class="swiper-slide swiper-slide-editor">
+
+                            <div class="grid-el grid-el-vertical">
+                                <img src="img/editors/001/001.jpg" alt="">
+                                <div class="grid-el-description">
+                                    <h4>Name</h4>
+                                    <h5>country</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit,
+                                        voluptates?
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="grid-el grid-el-horizontal-top">
+                                <img src="img/editors/001/002.jpg" alt="">
+                                <div class="grid-el-description">
+                                    <h4>Name</h4>
+                                    <h5>country</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit,
+                                        voluptates?
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="grid-el grid-el-horizontal-center">
+                                <img src="img/editors/001/003.jpg" alt="">
+                                <div class="grid-el-description">
+                                    <h4>Name</h4>
+                                    <h5>country</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit,
+                                        voluptates?
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="grid-el grid-el-horizontal-bottom-left">
+                                <img src="img/editors/001/004.jpg" alt="">
+                                <div class="grid-el-description">
+                                    <h4>Name</h4>
+                                    <h5>country</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit,
+                                        voluptates?
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="grid-el grid-el-horizontal-bottom-right">
+                                <img src="img/editors/001/005.jpg" alt="">
+                                <div class="grid-el-description">
+                                    <h4>Name</h4>
+                                    <h5>country</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit,
+                                        voluptates?
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-editor">
+
+                            <div class="grid-el grid-el-vertical">
+                                <img src="img/editors/002/001.jpg" alt="">
+                                <div class="grid-el-description">
+                                    <h4>Name</h4>
+                                    <h5>country</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit,
+                                        voluptates?
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="grid-el grid-el-horizontal-top">
+                                <img src="img/editors/002/002.jpg" alt="">
+                                <div class="grid-el-description">
+                                    <h4>Name</h4>
+                                    <h5>country</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit,
+                                        voluptates?
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="grid-el grid-el-horizontal-center">
+                                <img src="img/editors/002/003.jpg" alt="">
+                                <div class="grid-el-description">
+                                    <h4>Name</h4>
+                                    <h5>country</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit,
+                                        voluptates?
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="grid-el grid-el-horizontal-bottom-left">
+                                <img src="img/editors/002/004.jpg" alt="">
+                                <div class="grid-el-description">
+                                    <h4>Name</h4>
+                                    <h5>country</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit,
+                                        voluptates?
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="grid-el grid-el-horizontal-bottom-right">
+                                <img src="img/editors/002/005.jpg" alt="">
+                                <div class="grid-el-description">
+                                    <h4>Name</h4>
+                                    <h5>country</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit,
+                                        voluptates?
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--    mountain collection-->
+        <section class="mountain">
+
+            <div class="mountain-bg-wrapper">
+                <div class="mountain-bg">
+                    <div class="gradient gradient-mount-top"></div>
+                    <img src="img/mountain-collection/bg.jpg" alt="mount-bg">
+                    <div class="gradient gradient-mount-bottom"></div>
                 </div>
             </div>
 
+            <div class="mountain-content">
+                <header class="mountain-header">
+                    <h3>Mountain Collection</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam at eaque eos eveniet modi
+                        nesciunt quae saepe tempora, voluptatem. Nam.
+                    </p>
+                </header>
+
+                <div class="mountain-items">
+
+                    <div class="mountain-item">
+                        <div class="mountain-item-wrapper">
+                            <div class="mountain-item-text">
+                                <div>
+                                    <h4>Mountain</h4>
+                                    <h5>USA</h5>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum natus optio
+                                    quisquam! Accusamus aperiam doloremque explicabo hic libero magni maiores
+                                    perferendis repudiandae vero voluptates. Asperiores, cumque fugiat illum laboriosam
+                                    placeat qui ratione reiciendis repellat sequi suscipit? Dolorem eveniet
+                                    necessitatibus quos?
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eaque esse ex
+                                    exercitationem, illo impedit laborum, laudantium libero molestiae necessitatibus
+                                    nemo nulla obcaecati odit optio quae quibusdam quisquam rem repellat sint tempore
+                                    temporibus veniam voluptatibus.
+                                </p>
+                                <button class="button">read more</button>
+                            </div>
+                            <div class="mountain-item-img">
+                                <img src="img/mountain-collection/001.jpg" alt="mountain">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mountain-item">
+                        <div class="mountain-item-wrapper">
+                            <div class="mountain-item-text">
+                                <div>
+                                    <h4>Mountain</h4>
+                                    <h5>Spain</h5>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum natus optio
+                                    quisquam! Accusamus aperiam doloremque explicabo hic libero magni maiores
+                                    perferendis repudiandae vero voluptates. Asperiores, cumque fugiat illum laboriosam
+                                    placeat qui ratione reiciendis repellat sequi suscipit? Dolorem eveniet
+                                    necessitatibus quos?
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eaque esse ex
+                                    exercitationem, illo impedit laborum, laudantium libero molestiae necessitatibus
+                                    nemo nulla obcaecati odit optio quae quibusdam quisquam rem repellat sint tempore
+                                    temporibus veniam voluptatibus.
+                                </p>
+                                <button class="button">read more</button>
+                            </div>
+                            <div class="mountain-item-img">
+                                <img src="img/mountain-collection/002.jpg" alt="mountain">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mountain-item">
+                        <div class="mountain-item-wrapper">
+                            <div class="mountain-item-text">
+                                <div>
+                                    <h4>Mountain</h4>
+                                    <h5>Montenegro</h5>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum natus optio
+                                    quisquam! Accusamus aperiam doloremque explicabo hic libero magni maiores
+                                    perferendis repudiandae vero voluptates. Asperiores, cumque fugiat illum laboriosam
+                                    placeat qui ratione reiciendis repellat sequi suscipit? Dolorem eveniet
+                                    necessitatibus quos?
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eaque esse ex
+                                    exercitationem, illo impedit laborum, laudantium libero molestiae necessitatibus
+                                    nemo nulla obcaecati odit optio quae quibusdam quisquam rem repellat sint tempore
+                                    temporibus veniam voluptatibus.
+                                </p>
+                                <button class="button">read more</button>
+                            </div>
+                            <div class="mountain-item-img">
+                                <img src="img/mountain-collection/003.jpg" alt="mountain">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--    subscribe-->
+        <section class="subscribe">
+            <form action="#">
+                <label for="subscribe">Subscribe tp your new letters</label>
+                <div>
+                    <input id="subscribe" type="email" placeholder="Your email">
+                    <button type="submit" class="button">Subscribe</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer-content">
+            <div class="footer-name">
+                trppd _
+            </div>
+
+            <div class="footer-copy">
+                @2023-2024
+            </div>
+
+            <div class="footer-links">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="img/footer/fb.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com/" target="_blank">
+                            <img src="img/footer/inst.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank">
+                            <img src="img/footer/twitter.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </section>
 
-<!--    subscribe-->
-    <section>
-        <p>Subscribe</p>
-        <input type="text">
-        <button type="submit">Subscribe</button>
-    </section>
+    </footer>
 
-</main>
+</div>
 
-<footer>
 
-<!--    name-->
-    <div></div>
-
-<!--    copyright-->
-    <div></div>
-
-<!--    links-->
-    <div></div>
-
-</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
