@@ -11,7 +11,18 @@ new Swiper('.swiper-container-top',  {
 
     simulateTouch: false,
     loop: true,
+
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    speed: 1000,
+    effect: 'fade',
+    fadeEffect: {
+        crossFade: true,
+    },
 })
+
 
 new Swiper('.swiper-container-featured',  {
     navigation: {
@@ -24,7 +35,21 @@ new Swiper('.swiper-container-featured',  {
         type: 'fraction',
     },
     loop: true,
+
+    simulateTouch: false,
+    watchOverFlow: true,
+
+    spaceBetween: 40,
+
+    breakpoints: {
+        767: {
+            slidesPerView: 1,
+        }
+    },
+
+    freeMode: true,
 })
+
 
 new Swiper('.swiper-container-editor',  {
     navigation: {
@@ -32,9 +57,12 @@ new Swiper('.swiper-container-editor',  {
         nextEl: '.footer-arr-next-editor',
     },
 
+    spaceBetween: 40,
+
     pagination: {
         el: '.swiper-pagination-footer-editor',
         type: 'fraction',
     },
     loop: true,
+    simulateTouch: false,
 })
