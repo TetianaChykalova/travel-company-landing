@@ -1,0 +1,68 @@
+@media (max-width: 1200px) {
+    .swiper-pagination-footer:before {
+        width: 250px;
+    }
+    .section-footer-text {
+        width: 150px;
+    }
+
+    .header-nav,
+    .top-part {
+        height: 600px;
+    }
+
+    .sea-img {
+        margin: 0 50px 0 0;
+        width: 400px;
+        height: 400px;
+    }
+
+    .editor .details {
+        padding: 0 50px;
+    }
+
+    .mountain-header {
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .mountain-content {
+        padding: 0 100px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    :root {
+        --width-logo: 300px;
+        --width-left: 200px
+    }
+
+    .main section {
+        margin-bottom: 100px;
+    }
+
+    .header-name,
+    .header-nav {
+        padding-left: 15px;
+    }
+
+    .featured .details {
+        padding: 0 50px;
+    }
+
+    .sea-img {
+        width: 400px;
+        height: 400px;
+        margin: 0 50px 0 0;
+    }
+
+    .swiper-slide-editor {
+        grid-template-rows: repeat(3, 125px);
+        column-gap: 20px;
+        row-gap: 10px;
+    }
+    .section-footer-text {
+        display: none;
+    }
+}

@@ -1,11 +1,15 @@
 @import "nullstyle.css";
 
+/** {*/
+/*  outline: solid red;*/
+/*}*/
+
 :root {
   --bg: #28272A;
   --bg-opacity: rgba(40, 39, 42, 0.5);
   ---yellow: #FEE251;
   --text-light: #fff;
-  --text-gray: rgba(46, 47, 47, 0.23);
+  --text-gray: rgb(164, 166, 166);
   --text-dark: #322C1B;
   --width-logo: 400px;
   --width-left: 300px
@@ -59,7 +63,7 @@ body p {
 }
 
 .section-footer {
-  width: 700px;
+  max-width: 700px;
   display: flex;
   align-items: center;
 }
@@ -301,34 +305,38 @@ body p {
 
 .sea {
   display: flex;
-  height: 550px;
+  flex-direction: row;
 }
 .sea-img {
   width: 550px;
-  height: 100%;
+  height: 550px;
   margin: 0 150px 0 0;
 }
 .sea-img img {
-  width: 550px;
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
 .sea-description {
   width: 700px;
+  height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: flex-start;
 }
 .sea-description h3 {
   font-size: 3rem;
   font-weight: 700;
   max-width: 200px;
+  margin-bottom: 20px;
 }
 .sea-description span {
   font-style: italic;
+  margin-bottom: 20px;
 }
-
+.sea-description p {
+  margin-bottom: 20px;
+}
 
 
 .editor {
@@ -355,11 +363,12 @@ body p {
 
 .swiper-slide-editor {
   display: grid;
-  width: 100%;
+  min-width: 100%;
   column-gap: 50px;
   row-gap: 30px;
-  grid-template-columns: repeat(2, 450px);
+  grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(3, 250px);
+  margin: 0 20px 0 0;
 }
 .swiper-slide-editor img {
   width: 100%;
@@ -463,14 +472,13 @@ body p {
   content: '';
   height: 1px;
   width: 100%;
-  background: var(--text-gray);
+  background: rgba(255, 255, 255, 0.63);
   margin: 50px 0;
 }
 .mountain-item-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 300px;
 }
 .mountain-item-text {
   width: 50%;
@@ -486,20 +494,22 @@ body p {
 
 }
 .mountain-item-text h5 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  color: var(--text-gray);
+  color: rgba(255, 255, 255, 0.63);
+  margin-bottom: 20px;
 }
 .mountain-item-text p {
   line-height: 120%;
+  margin-bottom: 10px;
 }
 .mountain-item-img {
-  height: 100%;
+  height: 300px;
   width: 300px;
 }
 .mountain-item-img img {
   height: 100%;
-  width: 300px;
+  width: 100%;
   object-fit: cover;
 }
 

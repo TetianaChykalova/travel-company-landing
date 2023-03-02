@@ -1,0 +1,142 @@
+@media (max-width: 768px) {
+
+    :root {
+        --bg-opacity: rgba(40, 39, 42, 0.85);
+    }
+
+    .header-nav {
+        position: absolute;
+        top: 50px;
+        left: -1000px;
+        width: 100%;
+        height: 100vh;
+        padding: 70px 0 0 50px;
+    }
+
+    body.overflow-hidden {
+        overflow: hidden;
+    }
+    .header-nav.active {
+        left: 0;
+    }
+
+
+    .main section {
+        margin-bottom: 80px;
+    }
+    .header-user-img {
+        display: none;
+    }
+    .header-user ul li a {
+        font-weight: 500;
+    }
+    .header {
+        height: 50px;
+        background: var(--bg-opacity);
+    }
+    .header-name {
+        width: 130px;
+        font-size: 1.3rem;
+    }
+    .header-user {
+        padding: 0 20px 0 0;
+    }
+    .header-user ul li:first-child:after {
+        margin: 0 15px;
+    }
+
+    .top-part {
+        height: 500px;
+    }
+    .top-text {
+        left: 10px;
+    }
+    .top-text h2 {
+        font-size: 2.5rem;
+    }
+
+    .top-part-footer {
+        left: 0;
+    }
+    .swiper-pagination-footer:before {
+        width: 150px;
+    }
+
+    .featured,
+    .editor {
+        flex-direction: column;
+    }
+
+    .featured .head,
+    .editor .head {
+        width: 100%;
+        text-align: right;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    .featured-part-footer {
+        padding-left: 0;
+    }
+
+    .swiper-slide-featured {
+        min-width: 100%;
+    }
+    .swiper-slide-editor {
+        margin: 0 auto;
+    }
+    .sea {
+        flex-direction: column;
+    }
+    .sea-img {
+        width: 100%;
+        height: 50px;
+    }
+    .sea-description {
+        padding: 0 10px;
+    }
+    .sea-description,
+    .sea-description h3 {
+        max-width: 100%;
+    }
+
+
+    .mountain-content {
+        padding: 0;
+    }
+    .mountain-header {
+        margin-bottom: 70px;
+    }
+    .mountain-item-wrapper {
+        flex-direction: column;
+    }
+    .mountain-item-text {
+        padding: 0 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mountain-item-img {
+        width: 100%;
+        height: 200px;
+    }
+
+
+    .subscribe form div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subscribe form input {
+        margin-bottom: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-content >div {
+        margin: 0 0 20px 0;
+    }
+    .footer-links img {
+        width: 20px;
+        height: 20px;
+    }
+}

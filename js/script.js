@@ -23,6 +23,7 @@ new Swiper('.swiper-container-featured',  {
         el: '.swiper-pagination-footer-featured',
         type: 'fraction',
     },
+    loop: true,
 })
 
 new Swiper('.swiper-container-editor',  {
@@ -35,4 +36,5 @@ new Swiper('.swiper-container-editor',  {
         el: '.swiper-pagination-footer-editor',
         type: 'fraction',
     },
+    loop: true,
 })
