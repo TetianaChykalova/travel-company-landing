@@ -18,4 +18,4 @@ Also, the work was long due to the png file, usually, I have a design in Figma o
 
 ## Problems
 
-The swiper in the "editors pick" section doesn't work correctly. Changing from one slider to another happens instantly instead of gradually. Unfortunately, I could not find out the reasons for this behavior. But this will be my task for the future
+The swiper in the "editors pick" section doesn't work correctly in the desktop version. Changing from one slider to another happens instantly instead of gradually. Unfortunately, I could not find out the reasons for this behavior. But this will be my task for the future
