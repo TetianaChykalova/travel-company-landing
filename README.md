@@ -8,13 +8,12 @@ The website have adaptive versions for different devices.
 An additional library was used to create the slider:
 https://swiperjs.com/
 
-The result has base optimisation (in the swiper.js file)
+The result has base optimisation (in the swiper.js file).
+When you click on a user's name or photo, you will open a pop-up with additional features.
 
 ## Difficalty
 
-The most difficult part of this project was working with the swiper. 
-
-Also, the work was long due to the png file, usually, I have a design in Figma or Photoshop.
+The most difficult part of this project was working with the swiper. Also, the work was long due to the png file, usually, I have a design in Figma or Photoshop.
 
 ## Problems
 
