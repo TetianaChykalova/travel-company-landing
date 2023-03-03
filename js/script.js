@@ -10,7 +10,7 @@ textElems.forEach(elem => {
 
 
 const popUpUser = document.querySelector('#pop-up-user')
-const popUpUserImg = document.querySelector('.header-user-img')
+const popUpUserImg = document.querySelector('#pop-up-user-open')
 
 popUpUserImg.addEventListener('click', function() {
     popUpUser.classList.toggle('active')

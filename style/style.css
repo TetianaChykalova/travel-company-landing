@@ -142,7 +142,8 @@ body p {
   background: var(--text-light);
   margin: 0 30px;
 }
-.header-user ul li a {
+.header-user ul li a,
+.header-user ul li p {
   font-weight: 700;
   color: var(--text-light);
 }
@@ -156,8 +157,8 @@ body p {
 .header-user .pop-up {
   position: absolute;
   top: 65px;
-  right: 20px;
-  max-width: 300px;
+  right: 10px;
+  max-width: 270px;
   background: var(--text-light);
   width: 100%;
   padding: 10px;
