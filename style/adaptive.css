@@ -6,6 +6,11 @@
         width: 150px;
     }
 
+    .swiper-slide-editor {
+        width: 100%;
+        grid-template-columns: repeat(2, 270px);
+    }
+
     .header-nav,
     .top-part {
         height: 600px;
@@ -50,6 +55,9 @@
     .featured .details {
         padding: 0 50px;
     }
+    .swiper-container-featured {
+        width: 750px;
+    }
 
     .sea-img {
         width: 400px;
@@ -58,7 +66,9 @@
     }
 
     .swiper-slide-editor {
-        grid-template-rows: repeat(3, 125px);
+        width: 100%;
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: repeat(3, 150px);
         column-gap: 20px;
         row-gap: 10px;
     }

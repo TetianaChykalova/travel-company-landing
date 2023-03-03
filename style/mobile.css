@@ -61,10 +61,25 @@
     .swiper-pagination-footer:before {
         width: 150px;
     }
+    .swiper-pagination-footer:after {
+        width: 0;
+    }
 
     .featured,
     .editor {
         flex-direction: column;
+    }
+
+
+    .editor .details {
+        padding: 0 10px;
+    }
+    .swiper-container-featured {
+        max-width: 100%;
+    }
+    .swiper-slide-editor {
+        width: 100%;
+        grid-template-columns: repeat(2, 47%);
     }
 
     .featured .head,
@@ -127,6 +142,7 @@
     }
     .subscribe form input {
         margin-bottom: 20px;
+        width: 100%;
     }
 
     .footer-content {

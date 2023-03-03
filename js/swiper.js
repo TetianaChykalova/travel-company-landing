@@ -41,9 +41,14 @@ new Swiper('.swiper-container-featured',  {
 
     spaceBetween: 40,
 
+    slidesPerGroup: 1,
+
     breakpoints: {
-        767: {
+        320: {
             slidesPerView: 1,
+        },
+        767: {
+            slidesPerView: 'auto'
         }
     },
 
@@ -57,12 +62,19 @@ new Swiper('.swiper-container-editor',  {
         nextEl: '.footer-arr-next-editor',
     },
 
-    spaceBetween: 40,
-
     pagination: {
         el: '.swiper-pagination-footer-editor',
         type: 'fraction',
     },
     loop: true,
     simulateTouch: false,
+
+    watchOverFlow: true,
+
+    spaceBetween: 20,
+
+    slidesPerGroup: 1,
+    slidesPerView: 1,
+
+    freeMode: true,
 })
