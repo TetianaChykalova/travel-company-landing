@@ -21,6 +21,10 @@ new Swiper('.swiper-container-top',  {
     fadeEffect: {
         crossFade: true,
     },
+
+    lazy: {
+        loadPrevNext: true,
+    },
 })
 
 
@@ -53,6 +57,10 @@ new Swiper('.swiper-container-featured',  {
     },
 
     freeMode: true,
+
+    lazy: {
+        loadPrevNext: true,
+    },
 })
 
 
@@ -77,4 +85,8 @@ new Swiper('.swiper-container-editor',  {
     slidesPerView: 1,
 
     freeMode: true,
+
+    lazy: {
+        loadPrevNext: true,
+    },
 })
